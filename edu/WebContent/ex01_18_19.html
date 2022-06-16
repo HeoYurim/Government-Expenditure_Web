@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action ="ex01_01.html" method="get">
+	<table border="1">
+		<tr>
+			<td>아이디</td>
+			<td><input type ="text" name ="id" size="20"></td>
+		</tr>
+		<tr>
+			<td>비밀번호</td>
+			<td><input type="password" name ="pwd" size = "20"></td>
+		</tr>
+		
+		<tr>
+			<td>성별<br>
+			<td>
+				<input type ="radio" name ="gender" value="man" checked>남자
+				<input type ="radio" name ="gender" value="woman">여자
+			</td>
+		</tr>
+		<tr>
+			<td>취미</td>
+			<td><input type="checkbox" name ="hobby" value="climbing">등산
+				<input type="checkbox" name ="hobby" value="traveling">여행
+				<input type="checkbox" name ="hobby" value="fishing">낚시
+			</td>
+		</tr>
+		
+		<tr>
+			<td>컴퓨터 운영체제</td>
+			<td>
+				<select name ="OS" size ="3" multiple>
+					<option value="windows">윈도우7</option>
+					<option value="linux">리눅스</option>
+					<option value="solrais">솔라리스</option>
+					<option value="mac">맥</option>
+				</select>
+			</td>
+		<tr>
+			<td>기타사항</td>
+			<td>
+				<textarea rows="7" cols="30" name="exam"></textarea>
+			</td>
+		</tr>
+	</table>	
+	</form>
+</body>
+</html>
