@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body > div{
+		position:relative;
+		text-align: center;
+		overflow: hidden; 
+	}
+	.box{width:70px; height:70px; float:left; color:black; position:relative; background-color: white;}
+	.box:nth-child(1){left:10px; border-style: none;}
+	.box:nth-child(2){left:20px; border-style: solid;}
+	.box:nth-child(3){left:30px; border-style: dotted;}
+	.box:nth-child(4){left:40px; border-style: dashed;}
+	.box:nth-child(5){left:50px; border-style: double;}
+	.box:nth-child(6){left:60px; border-style: groove;}
+</style>
+</head>
+<body style="background-color: #FAED7D;">
+	<div class="box">none</div>
+	<div class="box">solid</div>
+	<div class="box">dotted</div>
+	<div class="box">dashed</div>
+	<div class="box">double</div>
+	<div class="box">groove</div>
+</body>
+</html>
