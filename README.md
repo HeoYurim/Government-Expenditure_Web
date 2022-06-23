@@ -18,3 +18,15 @@
    <li> <strong>2022-06-22</strong> 
 </ul>
 <hr><br> 
+
+<h3> ✔ JavaScript </h3>
+<ul>
+   <li> <strong>2022-06-23</strong> 변수 선언, 연산자
+</ul>
+<hr><br> 
+
+<h3> ✔ WebPage 제작 </h3>
+<ul>
+   <li> <strong>2022-06-23</strong> MainPage 및 Login
+</ul>
+<hr><br> 
