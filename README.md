@@ -9,21 +9,24 @@
    <li> <strong>2022-06-16</strong> HTML 추가된 태그
    <li> <strong>2022-06-17</strong> 회원가입, 로그인 화면
 </ul>
-<hr><br>
+<hr>
+
 <h3> ✔ CSS </h3>
 <ul>
    <li> <strong>2022-06-20</strong> 기본적인 선택자, 주요 스타일 속성
    <li> <strong>2022-06-21</strong> 박스 모델 속성, 고급 스타일 효과
    <li> <strong>2022-06-22</strong> 
 </ul>
-<hr><br> 
+<hr>
+
 <h3> ✔ JavaScript </h3>
 <ul>
    <li> <strong>2022-06-23</strong> 변수 선언, 연산자
 </ul>
-<hr><br> 
+<hr>
+
 <h3> ✔ WebPage 제작 </h3>
 <ul>
    <li> <strong>2022-06-23</strong> MainPage 및 Login
 </ul>
-<hr><br> 
+<hr>
