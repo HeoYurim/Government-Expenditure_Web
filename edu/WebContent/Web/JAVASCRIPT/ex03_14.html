@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>1-100까지 전체 합, 홀수 합, 짝수 합 구하기</title>
+<script>
+	var sum=0, even=0, odd=0;
+	for(var i=1; i<=100; i++){
+		sum += i;
+		switch(i % 2){
+			case 0 : even+=i; break;
+			case 1 : odd+=i; break;
+		}
+	}
+	document.write("1~100까지의 전체 합: " + sum + "<br>");
+	document.write("1~100까지의 홀수 합: " + odd + "<br>");
+	document.write("1~100까지의 짝수 합: " + even + "<br>");
+</script>
+</head>
+<body>
+
+</body>
+</html>

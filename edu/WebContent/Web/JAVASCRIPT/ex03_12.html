@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>switch를 이용한 부서 찾기</title>
+<script>
+	var code = prompt("부서 코드를 입력하시오(dev1, dev2, eng1, eng2)", " ");
+	var dept;
+	switch(code){
+	case "dev1":
+	case "dev2": dept = "개발부"; break;
+	case "eng1":
+	case "eng2": dept = "기술부"; break;
+	}
+	document.write("당신은 " + dept + " 근무하며, 부서 코드는 " + code + "입니다.")
+</script> 
+</head>
+<body>
+
+</body>
+</html>

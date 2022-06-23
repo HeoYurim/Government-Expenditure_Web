@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	body>div{
+			position: absolute;
+			top:150px;
+			left:150px;
+			height:300px;
+			width:300px;
+			border:1px dotted black;
+			overflow:hidden;
+		}
+	.box{
+		width:100px;
+		height:100px;
+		position: absolute;
+	}
+	.box:nth-child(1){
+		background-color: red;
+	}
+	.box:nth-child(2){
+		background-color: green;
+		left: 100px;
+		top:100px;
+	}
+	.box:nth-child(3){
+		background-color: blue;
+		left:200px;
+		top:200px;
+	}
+</style>	
+</head>
+<body>
+	<div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+	</div>
+</body>
+</html>
