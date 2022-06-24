@@ -1,6 +1,4 @@
 @charset "UTF-8";
-
-@charset "UTF-8";
 *{
 	padding : 0;
 	margin: 0 auto;
@@ -37,7 +35,7 @@ header{
 	height:75px;
 	line-height: 75px;
 	background-color : #B9E2FA;
-	color:#00bd39;
+	color:#6A5ACD;
 }
 header .logo{
 	float: left;
@@ -54,7 +52,7 @@ header .sidemenu > li{
 	font-weight:700;
 }
 header .sidemenu > li:hover{
-	color:green;
+	color:black;
 }
 
 /* nav */
@@ -97,7 +95,7 @@ nav .leftMenu > li > .dropmenu > span{
 	width:100%;
 	display: inline-block;
 	padding-left: 20px;
-	background: #00bd39;
+	background: #8C8CFF;
 	color:white;
 	font-weight: 400;
 }
@@ -105,14 +103,14 @@ nav .leftMenu > li > .dropmenu > span:hover{
 	font-weight: 700;
 }
 nav .leftMenu > li:hover{
-	color:#00bd39;
+	color:#6464CD;
 	font-weight: 700;
-	border-bottom: 3px solid #00bd39;
+	border-bottom: 3px solid #6464CD;
 }
 nav .leftMenu > li.active{
-	color: #00bd39;
+	color: #6464CD;
 	font-weight: 700;
-	border-bottom: 3px solid #00bd39;
+	border-bottom: 3px solid #6464CD;
 }
 nav .rightMenu{
 	float:right;
@@ -127,15 +125,16 @@ nav .rightMenu > li{
 	padding: 0 10px;
 	text-align: center;
 	
-	color: #00bd39;
+	color: white;
+	background: #6464CD;
 	font-weight: 700;
-	border: 2px solid #00bd39;
+	border: 2px solid #6464CD;
 	cursor: pointer;
 	border-radius: 50px;
 }
 nav .rightMenu > li:hover, nav .rightMenu > li.active{
-	color:white;
-	background: #00bd39;
+	color:black;
+	background: #B9E2FA;
 }
 
 /* section */
