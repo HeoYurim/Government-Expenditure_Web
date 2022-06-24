@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	function kindShape(){
+		document.write("**도형의 넓이**<br>");
+		return;
+	}
+	function circleSize(r){
+		document.write("원의 넓이 = " + (r*r*3.14) + "<br>");
+	}
+	function getSquareSize(bottom, height){
+		return bottom * height;
+	}
+	kindShape();
+	circleSize(10);
+	document.write("사각형의 넓이 = " + getSquareSize(4,5));
+</script>
+</head>
+<body>
+
+</body>
+</html>
