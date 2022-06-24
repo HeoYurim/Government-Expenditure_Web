@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Date와 Array 객체를 이용한 날짜/시간 구하기</title>
+<script>
+	var days = new Array("일","월","화","수","목","금","토");
+	var date = new Date();
+	document.write("오늘은 " + date.getFullYear() + "년 " + (date.getMonth() + 1) + "월 " + date.getDate() +"일 " + days[date.getDay()] +
+					"요일 입니다. <br>");
+	document.write("현재시간은  " + date.getHours() + " : " + date.getMinutes() + " : " + date.getSeconds() + "입니다.")
+</script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>생성자 함수를 이용한 객체 생성</title>
+<script>
+	var User = new Object();
+	User.name='kim';
+	User.age=25;
+	User.view=function(){
+		document.write('My name is ' + this.name + "<br>");
+		document.write('My age is ' + this.age);
+	};
+	User.view();
+</script>
+</head>
+<body>
+
+</body>
+</html>

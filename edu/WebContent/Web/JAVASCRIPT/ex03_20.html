@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+	function ex1(){
+		alert(encodeURI('가나다') + "\n" + decodeURI('%EA%B0%80%EB%82%98%EB%8B%A4'));
+	}
+	function ex2(){
+		var x =10, y = 15;
+		alert(String(x) + String(y));
+	}
+	function ex3(){
+		var ob1 = eval("var num=5+2");
+		var ob2 = eval("({'a':1,'b':2, 'c':3})");
+		alert(num + "\n" + ob2.c);
+	}
+</script>
+</head>
+<body>
+	<form name="frm">
+		<input type="button" onClick="ex1()" value="연습1">&nbsp;&nbsp;
+		<input type="button" onClick="ex2()" value="연습2">&nbsp;&nbsp;
+		<input type="button" onClick="ex3()" value="연습3">&nbsp;&nbsp;
+	</form>
+</body>
+</html>

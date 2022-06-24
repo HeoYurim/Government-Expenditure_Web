@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>기타 내장 함수</title>
+<script>
+	function plusfunc(){
+		var a = parseInt(frm.a.value);
+		var b = parseInt(frm.b.value);
+	
+		if(isNaN(a) || isNaN(b)){
+			alert("a값 또는 b값은 숫자가 아닙니다.");
+			frm.a.value="";
+			frm.b.value="";
+			frm.a.focus(); //a라고 쓰면 a에 바로 쓸 수 있고 b라고 쓰면 b에 바로 쓸 수 있다.
+			return;
+		}
+		frm.rs.value = a + b;
+	}
+	function minusfunc(){
+		var a = parseInt(frm.a.value);
+		var b = parseInt(frm.b.value);
+	
+		if(isNaN(a) || isNaN(b)){
+			alert("a값 또는 b값은 숫자가 아닙니다.");
+			frm.a.value="";
+			frm.b.value="";
+			frm.a.focus();
+			return;
+		}
+		frm.rs.value = a - b;
+	}
+	function multfunc(){
+		var a = parseInt(frm.a.value);
+		var b = parseInt(frm.b.value);
+	
+		if(isNaN(a) || isNaN(b)){
+			alert("a값 또는 b값은 숫자가 아닙니다.");
+			frm.a.value="";
+			frm.b.value="";
+			frm.a.focus();
+			return;
+		}
+		frm.rs.value = a * b;
+	}
+	function divifunc(){
+		var a = Number(frm.a.value);
+		var b = Number(frm.b.value);
+		rs=a/b;
+		
+		if(isFinite(rs) == false){
+			alert("0으로 나눌 수 없습니다.");
+			frm.a.value="";
+			frm.b.value="";
+			frm.a.focus();
+			return;
+		}
+		frm.rs.value=rs;
+	}
+	
+</script>
+</head>
+<body>
+	<form name ="frm">
+		A값 : <input type="text" size="7" name="a">&nbsp;&nbsp;
+		B값 : <input type="text" size="7" name="b">&nbsp;&nbsp;
+		결과: <input type="text" size="7" name="rs">&nbsp;&nbsp;
+		<input type="button" name="+" value="더하기" onclick="plusfunc()">
+		<input type="button" name="-" value="빼기" onclick="minusfunc()">
+		<input type="button" name="*" value="곱하기" onclick="multfunc()">
+		<input type="button" name="/" value="나누기" onclick="divifunc()">
+	</form>
+</body>
+</html>

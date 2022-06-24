@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>생성자를 이용한 객체 생성</title>
+<script>
+	function User(name, age){
+		this.name = name;
+		this.age = age;
+		this.view = function(){
+			document.write('나의 이름은 ' + this.name + '이고 나이는 '+ this.age + "세 입니다.<br>");
+		};
+	}
+	var ob1 = new User('kim', 25);
+	var ob2 = new User('lee', 20);
+	ob1.view();
+	ob2.view();
+</script>
+</head>
+<body>
+
+</body>
+</html>
