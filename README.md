@@ -22,6 +22,7 @@
 <h3> ✔ JavaScript </h3>
 <ul>
    <li> <strong>2022-06-23</strong> 변수 선언, 연산자
+   <li> <strong>2022-06-24</strong> 함수, 객체 생성, 표준객체(Number,String,Array,Date,Math)
 </ul>
 <hr>
 
