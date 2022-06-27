@@ -23,11 +23,13 @@
 <ul>
    <li> <strong>2022-06-23</strong> 변수 선언, 연산자
    <li> <strong>2022-06-24</strong> 함수, 객체 생성, 표준객체(Number,String,Array,Date,Math)
+   <li> <strong>2022-06-27</strong> 브라우저 객체 모델(BOM), 문서 객체 모델(DOM), 이벤트 모델, JSON
 </ul>
 <hr>
 
 <h3> ✔ WebPage 제작 </h3>
 <ul>
    <li> <strong>2022-06-23</strong> MainPage 및 Login
+   <li> <strong>2022-06-27</strong> Login 페이지 변경
 </ul>
 <hr>
