@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>인라인 이벤트 모델의 사용</title>
+<script>
+	function btnClick(v){
+		alert(v);
+	}
+</script>
+</head>
+<body>
+	<input type="button" value="클릭1" onclick="alert('클릭1')">
+	<input type="button" value="클릭2" onclick="var str='클릭2'; alert(str);">
+	<input type="button" value="클릭3" onclick="btnClick(value)">
+</body>
+</html>

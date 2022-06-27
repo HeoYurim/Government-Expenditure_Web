@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>방문 페이지를 history 객체에 저장하기</title>
+<script>
+	document.write("방문한 페이지 수: " + history.length);
+</script>
+</head>
+<body>
+	<h3>History 객체 연습(첫 번째 페이지)</h3>
+	<a href="test1.html"> 다음 페이지</a><br><br>
+	<input type="button" value="이전으로" onclick="javascript:history.back()">
+	<input type="button" value="다음으로" onclick="javascript:history.forward()">
+	<input type="button" value="처음으로" onclick="javascript:history.go(-2)">
+</body>
+</html>

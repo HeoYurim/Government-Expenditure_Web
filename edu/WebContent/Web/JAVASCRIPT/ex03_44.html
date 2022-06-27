@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>표준 이벤트 메서드</title>
+<style>
+	#box{
+		background-color:orange;
+		border:1px solid;
+		padding:5px;
+		color: white;
+		width:300px;
+		height:200px;	
+	}
+</style>
+</head>
+<body>
+	<div id = "box">
+		<button onclick="addEventHanlder()" id="startbtn">시작</button>
+		<button onclick="removeHandler()" id="stopbtn">정지</button>
+	</div>
+	<p id="demo"></p>
+	
+	<script>
+		function myFunction(){
+			document.getElementById("demo").innerHTML = " X좌표: " + event.x + "&nbsp;&nbsp;&nbsp;Y좌표 : " + event.y;
+		}
+		function addEventHanlder(){
+			document.getElementById("box").addEventListener("mousemove", myFunction);
+		}
+		function removeHandler(){
+			document.getElementById("box").removeEventListener("mousemove", myFunction);
+		}
+	</script>
+</body>
+</html>

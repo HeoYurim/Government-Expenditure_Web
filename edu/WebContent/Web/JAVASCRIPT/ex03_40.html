@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>근거리 선택자 이해</title>
+</head>
+<body>
+	<strong>머리말</strong><p id="me"><span>가운데</span><a href="">링크</a>
+	<img src="image/cat.png"/></p><button>꼬리말</button>
+	<hr>
+	
+	<script>
+		var me = document.getElementById("me");
+		document.write("topNode: " + me.ownerDocument.nodeName + "<br>");
+		document.write("firstChild: " + me.firstChild.nodeName + "<br>");
+		document.write("lastChild: " + me.lastChild.nodeName + "<br>");
+		document.write("parentNode: " + me.parentNode.nodeName + "<br>");
+		document.write("previousSibling: " + me.previousSibling.nodeName + "<br>");
+		document.write("nextSibling: " + me.nextSibling.nodeName + "<br>");
+	</script>
+</body>
+</html>

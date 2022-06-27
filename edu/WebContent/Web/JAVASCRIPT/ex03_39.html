@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>getElementsByTagName으로 Tag값 추출하기</title>
+<script>
+	function choice(){
+		var x = document.getElementsByTagName("li");
+		var text="";
+		for(i = 0; i < x.length; i++){
+			text += x[i].innerHTML;
+			text += "&nbsp;&nbsp;"
+		}
+		document.getElementById("demo").innerHTML = text;
+	}
+</script>
+</head>
+<body>
+	<button onclick="choice()"> 클릭하시오 </button><br>
+	<ul>
+		<li>아메리카노</li>
+		<li>카페라떼</li>
+		<li>콜드브루</li>
+	</ul>
+	<div id="demo"></div>
+</body>
+</html>

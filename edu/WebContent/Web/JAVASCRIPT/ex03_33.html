@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>location 객체를 이용해서 지정 파일에 데이터 전송하기</title>
+<script>
+	//win2.html 파일로 name, phone 정보를 전달
+	//win2.html?name=kim&phone=101-1234-5678로 전달된다.
+	function process(){
+		var name = frm.name.value;
+		var phone = frm.phone.value;
+		location.href="win2.html?" + name + "&" + phone;
+	}
+</script>
+</head>
+<body>
+	<form name="frm">
+		사용자명 : <input type="text" name="name">
+		전화번호 : <input type="text" name="phone">
+		<input typr="button" onClick="process()" value="보내기">
+	</form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>1초마다 현재 시간 출력하기</title>
+<script>
+	var t = new Date();
+	document.write(t.getHours() + ":" + t.getMinutes() + ":" + t.getSeconds());
+	setInterval(function(){
+		location.reload();
+	},1000);
+</script>
+</head>
+<body>
+
+</body>
+</html>

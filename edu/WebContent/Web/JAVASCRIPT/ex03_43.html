@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>고전 이벤트 모델의 사용</title>
+<script>
+	window.onload = function(){
+		var btn = document.getElementById('btn1');
+		btn1.onclick = function(){
+			alert('클릭1');
+			btn1.onclick = null;
+		}
+	};
+</script>
+</head>
+<body>
+	<input type="button" id="btn1" value="클릭1">
+	<input type="button" id="btn2" value="클릭2" onclick="alert('클릭2')">
+</body>
+</html>
