@@ -31,5 +31,6 @@
 <ul>
    <li> <strong>2022-06-23</strong> MainPage 및 Login
    <li> <strong>2022-06-27</strong> Login 페이지 변경
+   <li> <strong>2022-06-28</strong> main page 사진과 게시판 UI 추가
 </ul>
 <hr>
