@@ -1,6 +1,7 @@
 <!-- government-expenditure_WEB -->
 <h2><center>government-expenditure_Web</center></h2>
 
+<h2>Front-end</h2>
 <h3> ✔ HTML </h3>
 <ul>
    <li> <strong>2022-06-13</strong> 기본 태그, 이미지 태그, 목록 태그, 하이퍼링크 태그, 테이블 태그
@@ -24,6 +25,13 @@
    <li> <strong>2022-06-23</strong> 변수 선언, 연산자
    <li> <strong>2022-06-24</strong> 함수, 객체 생성, 표준객체(Number,String,Array,Date,Math)
    <li> <strong>2022-06-27</strong> 브라우저 객체 모델(BOM), 문서 객체 모델(DOM), 이벤트 모델, JSON
+</ul>
+<hr>
+
+<h2>Back-end</h2>
+<h3> ✔ Servlet </h3>
+<ul>
+   <li> <strong>2022-06-29</strong> Servlet 구현, Servlet 수행, Servlet 요청과 응답
 </ul>
 <hr>
 
