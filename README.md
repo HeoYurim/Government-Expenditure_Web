@@ -10,7 +10,6 @@
    <li> <strong>2022-06-16</strong> HTML 추가된 태그
    <li> <strong>2022-06-17</strong> 회원가입, 로그인 화면
 </ul>
-<hr>
 
 <h3> ✔ CSS </h3>
 <ul>
@@ -18,7 +17,6 @@
    <li> <strong>2022-06-21</strong> 박스 모델 속성, 고급 스타일 효과
    <li> <strong>2022-06-22</strong> 
 </ul>
-<hr>
 
 <h3> ✔ JavaScript </h3>
 <ul>
