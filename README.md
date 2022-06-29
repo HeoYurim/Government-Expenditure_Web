@@ -15,7 +15,7 @@
 <ul>
    <li> <strong>2022-06-20</strong> 기본적인 선택자, 주요 스타일 속성
    <li> <strong>2022-06-21</strong> 박스 모델 속성, 고급 스타일 효과
-   <li> <strong>2022-06-22</strong> 
+   <li> <strong>2022-06-22</strong> CSS 레이아웃, 실습
 </ul>
 
 <h3> ✔ JavaScript </h3>
