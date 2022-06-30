@@ -30,6 +30,7 @@
 <h3> ✔ Servlet </h3>
 <ul>
    <li> <strong>2022-06-29</strong> Servlet 구현, Servlet 수행, Servlet 요청과 응답
+   <li> <strong>2022-06-30</strong> 유용한 요청 정보 추출, GET방식 Query문자열 처리
 </ul>
 <hr>
 
