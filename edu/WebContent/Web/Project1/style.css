@@ -217,7 +217,9 @@ table{
 /*셀과 셀사이 여백*/
 table tr td{
 	padding: 7px 0;
+	text-align: center;
 }
+
 
 /*테이블 퐁당퐁당 컬러*/
 .notice table tr:nth-child(even){background-color: #e3e3e3;}

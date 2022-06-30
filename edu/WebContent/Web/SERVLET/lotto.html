@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>로또</title>
+<style>
+#title{color : red;}
+</style>
+</head>
+<body>
+	<h2 id = "title">로또 번호를 맞춰보세요!</h2>
+	
+	<hr>
+	<!-- 응모 버튼이 클릭되면 서블릿을 get방식으로 요청한다. -->
+	<form method="get" action="/edu/lotto">
+		1부터 10까지의 숫자를 입력하세요 :
+		<input name="guess" type="number" min="1" max="10" required>
+		<input id="img" type="image" src="/edu/image/clover.JPG" width=30px>
+	</form>
+</body>
+</html>
