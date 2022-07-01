@@ -162,28 +162,6 @@ section {
     left: 0;
 }
 
-/*왼쪽버튼*/
-.slide_wrap a.left_btn {
-    position: absolute;
-    margin-left: 15px;
-    top: 50%;
-    width: 40px;
-    height: 40px;
-    z-index: 50;
-    margin-top: -20px;
-}
-
-/*오른쪽버튼*/
-.slide_wrap a.right_btn {
-    position: absolute;
-    right: 0;
-    top: 50%;
-    width: 40px;
-    height: 40px;
-    z-index: 50;
-    margin-top: -20px;
-}
-
 /*공지사항과 파트너 영역을 가로로 정렬, 너비지정*/
 .notice{
 	margin-top:20px;
@@ -211,6 +189,7 @@ table{
     width: 500px;
     border-collapse: collapse;
     font-size: 0.9em;
+    margin-right: 20px;
 }
 
 

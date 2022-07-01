@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FileUpload 실습</title>
+<style>
+	input{
+		margin: 2px;
+	}
+</style>
+</head>
+<body>
+	<h2>FileUpload 실습</h2>
+	<form method="post" action="/edu/upload" enctype="multipart/form-data">
+		<label>작성자 : <input type ="text" name = "theAuthor" /></label><br>
+		<label>나이 : <input type ="text" name = "theAge" /></label><br>
+		<label>파일 : <input type ="file" name = "theFile" multiple/></label><br>
+		<input type = "submit" value="업로드" />
+		
+</body>
+</html>

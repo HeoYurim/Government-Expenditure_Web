@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/queryget")
+@WebServlet({"/queryget", "/querypost"})
 public class QueryServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.setContentType("text/html; charset=utf-8");
@@ -23,5 +23,12 @@ public class QueryServlet extends HttpServlet {
 		out.print("<a href = '" + request.getHeader("referer") + "'> 입력 화면으로 가기</a>");
 		out.close();
 	}
+
+	@Override
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		request.setCharacterEncoding("utf-8");
+		doGet(request, response);
+	}
+	
 
 }

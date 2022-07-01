@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Multi Partition 실습</title>
+<style>
+	input{
+		margin : 2px;
+	}
+</style>
+</head>
+<body>
+	<h2>multipart/form-data 실습</h2>
+	<form action = "/edu/part" method="post" enctype="multipart/form-data">
+		<label>작성자 이름 : <input type ="text" name = "myname" /></label><br>
+		<label>작성자 폰번호 : <input type ="text" name = "myphone" /></label><br>
+		<label>첨부 파일 : <input type ="file" name = "myfile" multiple/></label><br>
+		<input type = "submit" value="전송" />
+		
+	</form>
+</body>
+</html>
