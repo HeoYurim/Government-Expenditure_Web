@@ -31,6 +31,7 @@
 <ul>
    <li> <strong>2022-06-29</strong> Servlet 구현, Servlet 수행, Servlet 요청과 응답
    <li> <strong>2022-06-30</strong> 유용한 요청 정보 추출, GET방식 Query문자열 처리
+   <li> <strong>2022-07-01</strong> Post, form-data 처리(업로드)
 </ul>
 <hr>
 
@@ -39,5 +40,6 @@
    <li> <strong>2022-06-23</strong> MainPage 및 Login
    <li> <strong>2022-06-27</strong> Login 페이지 변경
    <li> <strong>2022-06-28</strong> main page 사진과 게시판 UI 추가
+   <li> <strong>2022-07-01</strong> 이미지 슬라이드
 </ul>
 <hr>
