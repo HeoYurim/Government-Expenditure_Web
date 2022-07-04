@@ -32,6 +32,7 @@
    <li> <strong>2022-06-29</strong> Servlet 구현, Servlet 수행, Servlet 요청과 응답
    <li> <strong>2022-06-30</strong> 유용한 요청 정보 추출, GET방식 Query문자열 처리
    <li> <strong>2022-07-01</strong> Post, form-data 처리(업로드)
+   <li> <strong>2022-07-04</strong> 상태정보 관리, Cookie 기술, HttpSession기술, 요청 재지정
 </ul>
 <hr>
 
