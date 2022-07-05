@@ -38,7 +38,7 @@
 
 <h3> ✔ JSP </h3>
 <ul>
-   <li> <strong>2022-07-05</strong> 파일생성, 내용 입력, JSP, 애플릿, 서블릿, JSP 파일의 구조, 지시어, page지시어, import 속성, errorPage, isErrorPage 속성, 에러처리
+   <li> <strong>2022-07-05</strong> JSP, 애플릿, 서블릿, JSP 파일의 구조, 지시어, page지시어, import 속성, errorPage, isErrorPage 속성, 에러처리
 </ul>
 <hr>
 
