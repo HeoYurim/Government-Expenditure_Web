@@ -42,7 +42,7 @@
 </ul>
 <hr>
 
-<h3> ✔ WebPage 제작 </h3>
+<h2> ✔ WebPage 제작 </h2>
 <ul>
    <li> <strong>2022-06-23</strong> MainPage 및 Login
    <li> <strong>2022-06-27</strong> Login 페이지 변경
