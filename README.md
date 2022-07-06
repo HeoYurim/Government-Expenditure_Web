@@ -39,6 +39,7 @@
 <h3> ✔ JSP </h3>
 <ul>
    <li> <strong>2022-07-05</strong> JSP, 애플릿, 서블릿, JSP 파일의 구조, 지시어, page지시어, import 속성, errorPage, isErrorPage 속성, 에러처리
+   <li> <strong>2022-07-06</strong> trimDirectiveWhitespaces, buffer, autoFlush, 버퍼 오버플로우, include 지시어, 스크립트 요소, _jspService() 메소드, 내장 객체, request 객체, get / post 방식으로 전송하기
 </ul>
 <hr>
 
