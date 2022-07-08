@@ -41,6 +41,7 @@
    <li> <strong>2022-07-05</strong> JSP, 애플릿, 서블릿, JSP 파일의 구조, 지시어, page지시어, import 속성, errorPage, isErrorPage 속성, 에러처리
    <li> <strong>2022-07-06</strong> trimDirectiveWhitespaces, buffer, autoFlush, 버퍼 오버플로우, include 지시어, 스크립트 요소, _jspService() 메소드, 내장 객체, request 객체, get / post 방식으로 전송하기
    <li> <strong>2022-07-07</strong> RequestWebInfo.jsp, 내장 객체 사용, RequestParameter.jsp, HTTP 요청 헤더 정보 읽기, response 객체
+   <li> <strong>2022-07-08</strong> out 객체, application, exception, 예외 처리용 jsp 파일 생성, 복습
 </ul>
 <hr>
 
