@@ -182,12 +182,28 @@ section {
     padding-bottom: 15px;
 }
 
+.notice2{
+	margin-top:20px;
+    float: left;
+    width: 500px;
+}
+
+.notice2 h1, .partner h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.notice2 h1{
+    border-bottom: 1px solid #999;
+    padding-bottom: 15px;
+}
+
 /*테이블 선을 하나로, 글자크기, 너비지정*/
 table{
-    width: 500px;
+    width: 400px;
     border-collapse: collapse;
     font-size: 0.9em;
-    margin-right: 20px;
+    margin-right: 60px;
 }
 
 
@@ -200,6 +216,7 @@ table tr td{
 
 /*테이블 퐁당퐁당 컬러*/
 .notice table tr:nth-child(even){background-color: #e3e3e3;}
+.notice2 table tr:nth-child(even){background-color: #e3e3e3;}
 
 /* section2 */
 #section2{
