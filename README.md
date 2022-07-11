@@ -53,4 +53,3 @@
    <li> <strong>2022-06-28</strong> main page 사진과 게시판 UI 추가
    <li> <strong>2022-07-01</strong> 이미지 슬라이드
 </ul>
-<hr>
