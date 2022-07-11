@@ -52,4 +52,5 @@
    <li> <strong>2022-06-27</strong> Login 페이지 변경
    <li> <strong>2022-06-28</strong> main page 사진과 게시판 UI 추가
    <li> <strong>2022-07-01</strong> 이미지 슬라이드
+   <li> <strong>2022-07-11</strong> main page 게시판 2개 폭 
 </ul>
