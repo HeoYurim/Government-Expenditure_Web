@@ -16,7 +16,7 @@
      <param-value>web.xml에 저장한 초기화 매개변수</param-value>
   </context-param>
   <!-- 에러페이지 분기 설정 -->
-  <!-- location : 위치 정보, 컨텍스트 루트를 제외한 경로  -->
+  <!-- location : 위치 정보, 컨텍스트 루트를 제외한 경로  
   <error-page>
      <error-code>404</error-code>
      <location>/02_ImplicitObject/Exception.jsp</location>
@@ -28,5 +28,5 @@
   <error-page>
      <error-code>500</error-code>
      <location>/02_ImplicitObject/Exception.jsp</location>
-  </error-page>
+  </error-page>-->
 </web-app>
