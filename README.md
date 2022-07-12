@@ -43,6 +43,7 @@
    <li> <strong>2022-07-07</strong> RequestWebInfo.jsp, 내장 객체 사용, RequestParameter.jsp, HTTP 요청 헤더 정보 읽기, response 객체
    <li> <strong>2022-07-08</strong> out 객체, application, exception, 예외 처리용 jsp 파일 생성, 복습
    <li> <strong>2022-07-11</strong> 내장 객체 영역(Scope), 데이터 전송 객체 준비(DTO), page 영역, request 영역, session 영역
+   <li> <strong>2022-07-12</strong> application 영역, 쿠키, 레이어 팝업 창 제어, 팝업 제한 기본 코드 생성 (쿠키 없음), 팝업용 쿠키 설정, 팝업 설정 코드 분석
 </ul>
 <hr>
 
