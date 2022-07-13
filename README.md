@@ -44,6 +44,7 @@
    <li> <strong>2022-07-08</strong> out 객체, application, exception, 예외 처리용 jsp 파일 생성, 복습
    <li> <strong>2022-07-11</strong> 내장 객체 영역(Scope), 데이터 전송 객체 준비(DTO), page 영역, request 영역, session 영역
    <li> <strong>2022-07-12</strong> application 영역, 쿠키, 레이어 팝업 창 제어, 팝업 제한 기본 코드 생성 (쿠키 없음), 팝업용 쿠키 설정, 팝업 설정 코드 분석
+   <li> <strong>2022-07-13</strong> PopupCookie.jsp, 로그인 아이디 저장, JSP 코드(스트립틀릿)에 자바스크립트 코드 추가하기, JSFunction.java, 쿠키 관리자, 로그인 페이지 작성하기, IdSaveProcess.jsp
 </ul>
 <hr>
 
