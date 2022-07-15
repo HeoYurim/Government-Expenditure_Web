@@ -15,6 +15,25 @@
      <param-name>INIT_PARAM</param-name>
      <param-value>web.xml에 저장한 초기화 매개변수</param-value>
   </context-param>
+  
+  <context-param> <!-- 드라이버 이름 -->
+  	<param-name>OracleDriver</param-name>
+  	<param-value>oracle.jdbc.OracleDriver</param-value>
+  </context-param>
+  <context-param> <!-- 접속 URL -->
+  	<param-name>OracleURL</param-name>
+  	<param-value>jdbc:oracle:thin:@localhost:1521:xe</param-value>
+  </context-param>
+  <context-param> <!-- 오라클 일반 계정 id -->
+  	<param-name>OracleId</param-name>
+  	<param-value>musthave</param-value>
+  </context-param>
+  <context-param> <!-- 패스워드 -->
+  	<param-name>OraclePwd</param-name>
+  	<param-value>1234</param-value>
+  </context-param>
+  <!-- 에러 페이지 분기 설정 : location은 위치 정보로 컨텍스 루트를 제외한 경로 -->
+  
   <!-- 에러페이지 분기 설정 -->
   <!-- location : 위치 정보, 컨텍스트 루트를 제외한 경로  
   <error-page>
