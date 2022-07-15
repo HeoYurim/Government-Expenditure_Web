@@ -46,6 +46,7 @@
    <li> <strong>2022-07-12</strong> application 영역, 쿠키, 레이어 팝업 창 제어, 팝업 제한 기본 코드 생성 (쿠키 없음), 팝업용 쿠키 설정, 팝업 설정 코드 분석
    <li> <strong>2022-07-13</strong> PopupCookie.jsp, 로그인 아이디 저장, JSP 코드(스트립틀릿)에 자바스크립트 코드 추가하기, JSFunction.java, 쿠키 관리자, 로그인 페이지 작성하기, IdSaveProcess.jsp
    <li> <strong>2022-07-14</strong> cmd창에서 Database 생성, JDBC 연결
+   <li> <strong>2022-07-15</strong> 연결 설정 개선, 커넥션 풀로 성능 개선, JNDI, 커넥션 풀 설정, context.xml 수정, 커넥션 풀 동작 검, 테스트 코드
 </ul>
 <hr>
 
@@ -55,5 +56,5 @@
    <li> <strong>2022-06-27</strong> Login 페이지 변경
    <li> <strong>2022-06-28</strong> main page 사진과 게시판 UI 추가
    <li> <strong>2022-07-01</strong> 이미지 슬라이드
-   <li> <strong>2022-07-11</strong> main page 게시판 2개 폭 
+   <li> <strong>2022-07-11</strong> main page 게시판 2개 폭 설정
 </ul>
