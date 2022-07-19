@@ -32,7 +32,7 @@ if(!loginpw.equals("")){ //loginId에 빈문자열 외의 문자열을 저장했
 <!-- header -->
 	<header>
 		<div class="container">
-			<div class="logo"><img src="image/officemark.png" width="160px" height="100px"></div>
+			<div class="logo"><img src="image/officemark.PNG" width="160px" height="100px"></div>
 				<ul class="sidemenu">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">나의 기록🧭</a></li>
@@ -73,7 +73,7 @@ if(!loginpw.equals("")){ //loginId에 빈문자열 외의 문자열을 저장했
 		</ul>
 		<ul class="rightMenu">
 			<li><a href="join.html">회원가입</a></li>
-			<li><a href="login.html">로그인</a></li>
+			<li><a href="login.jsp">로그인</a></li>
 		</ul>
 	</div>
 	</nav>
@@ -87,13 +87,11 @@ if(!loginpw.equals("")){ //loginId에 빈문자열 외의 문자열을 저장했
 							<h1>로그인</h1>
 						</div>
 						<form action="IdSaveProcess.jsp" method="post">
-							아이디 : <input type="text" name="user_id" value="<%= loginId %>" />
+							아이디  : <input type="text" name="user_id" value="<%= loginId %>" />
 							<input type="checkbox" name ="save_check" value="Y" <%= cookieCheck %> />
-							아이디 저장하기
 							<br />
 							패스워드 : <input type="text" name="user_pw" value="<%= loginpw %>"/>
 							<input type="checkbox" name ="save_check2" value="Y" <%= cookieCheck2 %> />
-							비밀번호 저장하기
 							<br />
 							<button type="submit">로그인</button>
 						</form>

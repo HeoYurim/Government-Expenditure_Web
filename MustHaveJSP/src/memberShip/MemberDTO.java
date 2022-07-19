@@ -26,10 +26,10 @@ public class MemberDTO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getRegdate() {
+	public String getRegidate() {
 		return regidate;
 	}
-	public void setRegdate(String regdate) {
-		this.regidate = regdate;
+	public void setRegidate(String regidate) {
+		this.regidate = regidate;
 	}
 }

@@ -246,9 +246,10 @@ table tr td{
 }
 #section2 .loginBox .box form{
     margin-top: 20px;
+    
 }
 #section2 .loginBox .box input{
-    width: 100%;
+    width: 150px;
     height: 40px;
     margin-top: 10px;
     padding-left: 10px;
