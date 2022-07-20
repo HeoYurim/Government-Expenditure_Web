@@ -49,6 +49,7 @@
    <li> <strong>2022-07-15</strong> 연결 설정 개선, 커넥션 풀로 성능 개선, JNDI, 커넥션 풀 설정, context.xml 수정, 커넥션 풀 동작 검, 테스트 코드
    <li> <strong>2022-07-18</strong> 동적 쿼리문으로 데이터 입력, 정적 쿼리문으로 회원 조회, ResultSet, 세션, DB 연동, 회원 정보 테이블용 DAO 클래스
    <li> <strong>2022-07-19</strong> 로그인 처리 JSP 구현, 로그아웃 페이지, 공통 링크 추가, 쿠키와 세션, 액션 태그
+   <li> <strong>2022-07-20</strong> 액션 태그의 용도, jsp:include, jsp:forward, jsp:usebean (set/get)
 </ul>
 <hr>
 
