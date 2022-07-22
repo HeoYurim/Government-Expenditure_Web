@@ -50,7 +50,7 @@
    <li> <strong>2022-07-18</strong> 동적 쿼리문으로 데이터 입력, 정적 쿼리문으로 회원 조회, ResultSet, 세션, DB 연동, 회원 정보 테이블용 DAO 클래스
    <li> <strong>2022-07-19</strong> 로그인 처리 JSP 구현, 로그아웃 페이지, 공통 링크 추가, 쿠키와 세션, 액션 태그
    <li> <strong>2022-07-20</strong> 액션 태그의 용도, jsp:include, jsp:forward, jsp:usebean (set/get)
-   <li> <strong>2022-07-21</strong> 멤버 변수 값 설정 / 추출, setProperty에 *과 form 태그, post 방식의 한글처리, <jsp:param> , 포워드를 사용한 jsp:param 테스트, 포워드를 사용한 jsp:param 테스트
+   <li> <strong>2022-07-21</strong> 멤버 변수 값 설정 / 추출, setProperty에 *과 form 태그, post 방식의 한글처리, jsp:param, 포워드를 사용한 jsp:param 테스트, 포워드를 사용한 jsp:param 테스트
    <li> <strong>2022-07-22</strong> 프로젝트 구상, 데이터베이스 확인, 모델1 구조, 목록보기 페이지 구성,  BoardDAO, 게시물 개수 세기, 게시물 목록 가져오기
 </ul>
 <hr>
