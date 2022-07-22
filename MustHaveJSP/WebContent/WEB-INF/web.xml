@@ -31,7 +31,7 @@
   </error-page>
 
   <!-- 오라클 데이터베이스 접속 정보(예제 5-8) -->
-  <context-param>
+  <context-param> <!-- 드라이버 이름 -->
     <param-name>OracleDriver</param-name>
     <param-value>oracle.jdbc.OracleDriver</param-value>
   </context-param>
