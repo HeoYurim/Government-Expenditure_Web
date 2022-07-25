@@ -52,7 +52,7 @@
    <li> <strong>2022-07-20</strong> 액션 태그의 용도, jsp:include, jsp:forward, jsp:usebean (set/get)
    <li> <strong>2022-07-21</strong> 멤버 변수 값 설정 / 추출, setProperty에 *과 form 태그, post 방식의 한글처리, jsp:param, 포워드를 사용한 jsp:param 테스트, 포워드를 사용한 jsp:param 테스트
    <li> <strong>2022-07-22</strong> 프로젝트 구상, 데이터베이스 확인, 모델1 구조, 목록보기 페이지 구성,  BoardDAO, 게시물 개수 세기, 게시물 목록 가져오기
-   <li> <strong>2022-07-25</strong> 게시물 목록 가져오기, 목록 출력하기, 글쓰기 페이지 구현, BoardDAO.java에 insert문 추가, 글쓰기 처리 페이지, 테스트, 회원가입 
+   <li> <strong>2022-07-25</strong> 게시물 목록 가져오기, 목록 출력하기, 글쓰기 페이지 구현, BoardDAO.java에 insert문 추가, 글쓰기 처리 페이지, 테스트, 회원가입 폼
 </ul>
 <hr>
 
