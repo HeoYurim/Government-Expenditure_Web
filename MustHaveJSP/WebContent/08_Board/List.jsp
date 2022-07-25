@@ -13,11 +13,11 @@ BoardDAO dao = new BoardDAO(application);
 //사용자가 입력한 검색 조건을 Map에 저장
 Map<String, Object> param = new HashMap<String, Object>();
 String searchField = request.getParameter("searchField");
-String searchWorld = request.getParameter("searchWorld");
+String searchWorld = request.getParameter("searchWord");
 
 if(searchWorld != null){
 	param.put("searchField", searchField);
-	param.put("searchWorld", searchWorld);
+	param.put("searchWord", searchWorld);
 }
 
 int totalCount = dao.selectCount(param); //게시물 수 확인
@@ -43,7 +43,7 @@ dao.close(); //DB 연결 닫기
 				<option value="title">제목</option>
 				<option value="content">내용</option>
 			</select>
-			<input type="text" name="searchWorld"/>
+			<input type="text" name="searchWord"/>
 			<input type="submit" value="검색하기"/>
 		</td>
 	</tr>

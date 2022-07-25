@@ -9,6 +9,10 @@
 		<% }else { %>
 			<a href="../06_Session/Logout.jsp">로그아웃</a>
 		<% } %>
+		
+			&nbsp;&nbsp;&nbsp;
+			<a href="../06_Session/Join.jsp">회원가입</a>
+			
 			<!-- 8장과 9장의 회원제 게시판 프로젝트에서 사용할 링크 -->
 			&nbsp;&nbsp;&nbsp;
 			<a href="../08_Board/List.jsp">게시판(페이징 X)</a>
