@@ -7,7 +7,7 @@ public class MemberDAO extends JDBConnect {
     public MemberDAO(String drv, String url, String id, String pw) {
         super(drv, url, id, pw);
     }
-
+    
     // 명시한 아이디/패스워드와 일치하는 회원 정보를 반환합니다.
     public MemberDTO getMemberDTO(String uid, String upass) {
         MemberDTO dto = new MemberDTO();  // 회원 정보 DTO 객체 생성

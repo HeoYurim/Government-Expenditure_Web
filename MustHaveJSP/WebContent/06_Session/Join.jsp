@@ -21,7 +21,7 @@
 					</td>
 				</tr>
 				<tr>
-					<td><label for ="pw">비밀번호</label></td>
+					<td><label for ="pass">비밀번호</label></td>
 					<td>
 						<input type="number" name="user_pw" placeholder="이메일을 입력하시오" id="email">
 					</td>
