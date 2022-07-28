@@ -1,5 +1,7 @@
 package memberShip;
 
+import javax.servlet.ServletContext;
+
 import common.JDBConnect;
 
 public class MemberDAO extends JDBConnect {
@@ -7,6 +9,7 @@ public class MemberDAO extends JDBConnect {
     public MemberDAO(String drv, String url, String id, String pw) {
         super(drv, url, id, pw);
     }
+    
     
     // 명시한 아이디/패스워드와 일치하는 회원 정보를 반환합니다.
     public MemberDTO getMemberDTO(String uid, String upass) {
@@ -35,4 +38,32 @@ public class MemberDAO extends JDBConnect {
 
         return dto;  // DTO 객체 반환
     }
+    
+    public MemberDAO(ServletContext application) {
+        super(application);
+    }
+    
+ // 게시글 데이터를 받아 DB에 추가합니다.
+    public int insertWrite(MemberDTO dto){
+        int result = 0;
+        
+        try {
+           //INSERT 쿼리문 작성
+           String query = "INSERT INTO member( "
+                     + " id, pass, name) "
+                     + "VALUES( "
+                     + " ?, ?, ?)";
+           psmt = con.prepareStatement(query); //동적 쿼리
+           psmt.setString(1, dto.getId());
+           psmt.setString(2, dto.getPass());
+           psmt.setString(3,  dto.getName());
+         
+           result = psmt.executeUpdate();
+        }
+        catch(Exception e) {
+           System.out.println("게시물 입력 중 예외 발생");
+           e.printStackTrace();
+        }
+        return result;
+     }
 }

@@ -53,6 +53,16 @@
     <session-timeout>20</session-timeout>
   </session-config>
   
+  <!-- 게시판 페이징 처리를 위한 설정값(예제 9-3) -->
+  <context-param>
+  	<param-name>POST_PER_PAGE</param-name>
+  	<param-value>10</param-value>
+  </context-param>
+  <context-param>
+  	<param-name>PAGES_PER_BLOCK</param-name>
+  	<param-value>5</param-value>
+  </context-param>
+  
   <!-- 한글 깨짐 방지를 위한 필터 설정(예제 7-9) -->
   <filter>
     <filter-name>SetCharEncoding</filter-name>
