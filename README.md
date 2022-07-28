@@ -54,6 +54,7 @@
    <li> <strong>2022-07-22</strong> 프로젝트 구상, 데이터베이스 확인, 모델1 구조, 목록보기 페이지 구성,  BoardDAO, 게시물 개수 세기, 게시물 목록 가져오기
    <li> <strong>2022-07-25</strong> 게시물 목록 가져오기, 목록 출력하기, 글쓰기 페이지 구현, BoardDAO.java에 insert문 추가, 글쓰기 처리 페이지, 테스트, 회원가입 폼
    <li> <strong>2022-07-26</strong> 상세보기 페이지, 조회수 증가 메소드, View.jsp, 수정하기, DAO에 update 메소드 추가, EditProcess.jsp
+   <li> <strong>2022-07-28</strong> 게시판에 페이징 기능 넣기, 더미 데이터 입력, 페이징 처리용 쿼리문 작성, DAO 수정, List 수정, HTML 코드 생성, 화면 출력
 </ul>
 <hr>
 
