@@ -55,6 +55,8 @@
    <li> <strong>2022-07-25</strong> 게시물 목록 가져오기, 목록 출력하기, 글쓰기 페이지 구현, BoardDAO.java에 insert문 추가, 글쓰기 처리 페이지, 테스트, 회원가입 폼
    <li> <strong>2022-07-26</strong> 상세보기 페이지, 조회수 증가 메소드, View.jsp, 수정하기, DAO에 update 메소드 추가, EditProcess.jsp
    <li> <strong>2022-07-28</strong> 게시판에 페이징 기능 넣기, 더미 데이터 입력, 페이징 처리용 쿼리문 작성, DAO 수정, List 수정, HTML 코드 생성, 화면 출력
+   <li> <strong>2022-08-01</strong> EL, 사용법, jsp:forward 테스트, 객체 전달하기, 쿠키, HTTP 헤더
+   <li> <strong>2022-08-02</strong> 컨텍스트 초기화, 컬렉션 EL, 각종 연산자 정리, 기타 연산자, 인스턴스 메소드 호출, 메소드 호출 활용하기, 정적 메소드 호출, TLD를 이용하는 방법(정적 메소드), TLD 파일에 메소드 등록
 </ul>
 <hr>
 
