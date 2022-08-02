@@ -16,7 +16,7 @@
     <param-value>web.xml에 저장한 초기화 매개변수</param-value>
   </context-param>
 
-  <!-- 에러 페이지 처리하기(예제 2-12) -->
+  <!-- 에러 페이지 처리하기(예제 2-12) 
   <error-page>
     <error-code>404</error-code>
     <location>/02ImplicitObject/Exception.jsp</location>
@@ -28,7 +28,7 @@
   <error-page>
     <error-code>500</error-code>
     <location>/02ImplicitObject/Exception.jsp</location>
-  </error-page>
+  </error-page>-->
 
   <!-- 오라클 데이터베이스 접속 정보(예제 5-8) -->
   <context-param> <!-- 드라이버 이름 -->
