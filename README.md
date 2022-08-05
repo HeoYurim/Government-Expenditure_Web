@@ -58,6 +58,7 @@
    <li> <strong>2022-08-01</strong> EL, 사용법, jsp:forward 테스트, 객체 전달하기, 쿠키, HTTP 헤더
    <li> <strong>2022-08-02</strong> 컨텍스트 초기화, 컬렉션 EL, 각종 연산자 정리, 기타 연산자, 인스턴스 메소드 호출, 메소드 호출 활용하기, 정적 메소드 호출, TLD를 이용하는 방법(정적 메소드), TLD 파일에 메소드 등록
    <li> <strong>2022-08-04</strong> JSTL, JSTL 태그 종류, 코어 태그, c:set, c:remove, c:if, c:choose, c:forEach, c:forTokens, c:import
+   <li> <strong>2022-08-05</strong> c:url , c:out, c:catch, 국제화 태그, 숫자 포멧팅 및 파싱, 날짜 포멧 및 타임존, 로케일 설정, xml태그
 </ul>
 <hr>
 
