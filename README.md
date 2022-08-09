@@ -60,6 +60,7 @@
    <li> <strong>2022-08-04</strong> JSTL, JSTL 태그 종류, 코어 태그, c:set, c:remove, c:if, c:choose, c:forEach, c:forTokens, c:import
    <li> <strong>2022-08-05</strong> c:url , c:out, c:catch, 국제화 태그, 숫자 포멧팅 및 파싱, 날짜 포멧 및 타임존, 로케일 설정, xml태그
    <li> <strong>2022-08-08</strong> 파일 업로드, 업로드 데이터베이스 생성, MyfileDTO.java, MyfileDAO.java, 파일 업로드 및 폼값 처리,  UploadProcess.jsp
+   <li> <strong>2022-08-08</strong> 파일 목록보기, FileList.jsp, 파일 다운로드
 </ul>
 <hr>
 
