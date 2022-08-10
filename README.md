@@ -61,6 +61,7 @@
    <li> <strong>2022-08-05</strong> c:url , c:out, c:catch, 국제화 태그, 숫자 포멧팅 및 파싱, 날짜 포멧 및 타임존, 로케일 설정, xml태그
    <li> <strong>2022-08-08</strong> 파일 업로드, 업로드 데이터베이스 생성, MyfileDTO.java, MyfileDAO.java, 파일 업로드 및 폼값 처리,  UploadProcess.jsp
    <li> <strong>2022-08-08</strong> 파일 목록보기, FileList.jsp, 파일 다운로드
+   <li> <strong>2022-08-10</strong> 서블릿, 서블릿 컨테이너, 동작방식, 작성 규칙, 작성, 실제 요청을 처리할 서블릿 클래스, 결과 분석, @WebServlet 애너테이션으로 매핑, 애너테이션과 web.xml 비교 분석, 한 번의 매핑으로 여러가지 요청 처리
 </ul>
 <hr>
 
