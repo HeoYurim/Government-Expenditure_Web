@@ -114,12 +114,12 @@
     <servlet-class>servlet.MemberAuth</servlet-class>
     <init-param>
       <param-name>admin_id</param-name>
-      <param-value>nakja</param-value>
+      <param-value>mit</param-value>
     </init-param>
   </servlet>
   <servlet-mapping>
     <servlet-name>MemberAuth</servlet-name>
-    <url-pattern>/13Servlet/MemberAuth.mvc</url-pattern>
+    <url-pattern>/13_Servlet/MemberAuth.mvc</url-pattern>
   </servlet-mapping>
 
   <!-- 서블릿 매핑 4(예제 14-4) -->
