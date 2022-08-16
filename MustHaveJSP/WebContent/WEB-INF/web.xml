@@ -129,7 +129,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>MVCBoardList</servlet-name>
-    <url-pattern>/mvcboard/list.do</url-pattern>
+    <url-pattern>/mvcboard/list.mit</url-pattern>
   </servlet-mapping>
   
   <!-- 서블릿 매핑 5(예제 14-7) -->
@@ -139,7 +139,7 @@
   </servlet>
   <servlet-mapping>
     <servlet-name>MVCBoardWrite</servlet-name>
-    <url-pattern>/mvcboard/write.do</url-pattern>
+    <url-pattern>/mvcboard/write.mit</url-pattern>
   </servlet-mapping>
 
   <!-- 첨부 파일 최대 용량 설정(예제 14-8) -->
