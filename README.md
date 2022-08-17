@@ -64,6 +64,7 @@
    <li> <strong>2022-08-10</strong> 서블릿, 서블릿 컨테이너, 동작방식, 작성 규칙, 작성, 실제 요청을 처리할 서블릿 클래스, 결과 분석, @WebServlet 애너테이션으로 매핑, 애너테이션과 web.xml 비교 분석, 한 번의 매핑으로 여러가지 요청 처리
    <li> <strong>2022-08-11</strong> 서블릿의 수명주기 메소드, 메소드 동작 확인, MVC 패턴을 적용한 회원 인증 구현
    <li> <strong>2022-08-16</strong> 모델2 방식의 자료실형 게시판 작성, 목록보기, DTO 생성, DAO 생성, 진입 화면 작성, 컨트롤러 작성(ListController.java), 목록보기(List.jsp)
+   <li> <strong>2022-08-17</strong> 글쓰기, 컨트롤러 작성 1 - 작성폼으로 진입, Write.jsp(뷰), MVCBoardDAO (메소드 추가), 컨트롤러 작성 2 - FileUtil.java, WriteController.java, 테스트 진행
 </ul>
 <hr>
 
