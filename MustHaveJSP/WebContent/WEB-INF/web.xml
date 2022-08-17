@@ -143,6 +143,7 @@
   </servlet-mapping>
 
   <!-- 첨부 파일 최대 용량 설정(예제 14-8) -->
+  <!-- 1메가 업로드 용량 제한 -->
   <context-param>
     <param-name>maxPostSize</param-name>
     <param-value>1024000</param-value>

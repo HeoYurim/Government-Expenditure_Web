@@ -75,7 +75,7 @@
                 ${ map.pagingImg }
             </td>
             <td width="100"><button type="button"
-                onclick="location.href='../mvcboard/write.do';">글쓰기</button></td>
+                onclick="location.href='../mvcboard/write.mit';">글쓰기</button></td>
         </tr>
     </table>
 </body>
