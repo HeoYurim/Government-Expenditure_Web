@@ -66,6 +66,7 @@
    <li> <strong>2022-08-16</strong> 모델2 방식의 자료실형 게시판 작성, 목록보기, DTO 생성, DAO 생성, 진입 화면 작성, 컨트롤러 작성(ListController.java), 목록보기(List.jsp)
    <li> <strong>2022-08-17</strong> 글쓰기, 컨트롤러 작성 1 - 작성폼으로 진입, Write.jsp(뷰), MVCBoardDAO (메소드 추가), 컨트롤러 작성 2 - FileUtil.java, WriteController.java, 테스트 진행
    <li> <strong>2022-08-18</strong> 컨트롤러 작성(애너테이션), 뷰 작성, 파일 다운로드, 컨트롤러 작성, 파일 다운로드 서블릿
+   <li> <strong>2022-08-19</strong> 삭제하기(MVC 작성), 삭제와 수정하기 위한 서블릿, 수정하기(MVC 작성)
 </ul>
 <hr>
 
