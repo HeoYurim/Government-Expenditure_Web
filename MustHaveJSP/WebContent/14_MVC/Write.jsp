@@ -45,7 +45,7 @@
 		<tr>
 			<td>제목</td>
 			<td>
-				<input type="text" name="title" style="width:90px;"/>
+				<input type="text" name="title" style="width:90%;"/>
 			</td>
 		</tr>
 		<tr>

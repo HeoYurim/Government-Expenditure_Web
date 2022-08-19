@@ -39,7 +39,7 @@ public class WriteController extends HttpServlet {
         if (mr == null) {
             // 파일 업로드 실패
             JSFunction.alertLocation(resp, "첨부 파일이 제한 용량을 초과합니다.",
-                                     "../mvcboard/write.do");  
+                                     "../mvcboard/write.mit");  
             return;
         }
 
@@ -76,9 +76,9 @@ public class WriteController extends HttpServlet {
 
         // 성공 or 실패?
         if (result == 1) {  // 글쓰기 성공
-            resp.sendRedirect("../mvcboard/list.do");
+            resp.sendRedirect("../mvcboard/list.mit");
         }
         else {  // 글쓰기 실패
-            resp.sendRedirect("../mvcboard/write.do");
+            resp.sendRedirect("../mvcboard/write.mit");
         }
     }}
