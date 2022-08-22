@@ -67,6 +67,7 @@
    <li> <strong>2022-08-17</strong> 글쓰기, 컨트롤러 작성 1 - 작성폼으로 진입, Write.jsp(뷰), MVCBoardDAO (메소드 추가), 컨트롤러 작성 2 - FileUtil.java, WriteController.java, 테스트 진행
    <li> <strong>2022-08-18</strong> 컨트롤러 작성(애너테이션), 뷰 작성, 파일 다운로드, 컨트롤러 작성, 파일 다운로드 서블릿
    <li> <strong>2022-08-19</strong> 삭제하기(MVC 작성), 삭제와 수정하기 위한 서블릿, 수정하기(MVC 작성)
+   <li> <strong>2022-08-22</strong> 채팅 서버 구현, 채팅 클라이언트 구현, ChatWindow.jsp 채팅창 구현, 웹 소켓 이벤트 관련 호출 함수, CSS와 html 코드
 </ul>
 <hr>
 
